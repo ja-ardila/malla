@@ -47,6 +47,14 @@
     ]
   },
   {
+    "codigo": "2023104",
+    "nombre": "Fisiología I",
+    "semestre": 2,
+    "prerrequisitos": [
+      "Introducción a la Fisiología"
+    ]
+  },
+  {
     "codigo": "2021522",
     "nombre": "Medicina y Sociedad",
     "semestre": 2,
@@ -73,11 +81,20 @@
     ]
   },
   {
-    "codigo": "2023104",
-    "nombre": "Fisiología I",
+    "codigo": "2026282",
+    "nombre": "Histología III",
     "semestre": 3,
     "prerrequisitos": [
-      "Introducción a la Fisiología"
+      "Histología II"
+    ]
+  },
+  {
+    "codigo": "2017994",
+    "nombre": "Genética",
+    "semestre": 3,
+    "prerrequisitos": [
+      "Bioquímica I",
+      "Histología I"
     ]
   },
   {
@@ -94,6 +111,14 @@
     "semestre": 3,
     "prerrequisitos": [
       "Bioquímica I"
+    ]
+  },
+  {
+    "codigo": "2017986",
+    "nombre": "Demografía y Bioestadística",
+    "semestre": 3,
+    "prerrequisitos": [
+      "Medicina y Sociedad"
     ]
   },
   {
@@ -124,15 +149,9 @@
     ]
   },
   {
-    "codigo": "2025539",
-    "nombre": "Comunicación Científica",
-    "semestre": 4,
-    "prerrequisitos": []
-  },
-  {
     "codigo": "2023108",
     "nombre": "Patología General",
-    "semestre": 5,
+    "semestre": 4,
     "prerrequisitos": [
       "Histología III",
       "Anatomía II",
@@ -156,12 +175,29 @@
       "Inmunología"
     ]
   },
+   {
+    "codigo": "2017994",
+    "nombre": "Patología Especial",
+    "semestre": 5,
+    "prerrequisitos": [
+      "Patología General"
+    ]
+  },
   {
     "codigo": "2015584",
     "nombre": "Introducción a la Medicina Interna",
     "semestre": 5,
     "prerrequisitos": [
-      "Patología General"
+      "Patología General",
+      "Salud y Sociedad"
+    ]
+  },
+  {
+    "codigo": "2017989",
+    "nombre": "Epidemiología",
+    "semestre": 5,
+    "prerrequisitos": [
+      "Demografía y Bioestadística"
     ]
   },
   {
@@ -171,14 +207,6 @@
     "prerrequisitos": [
       "Patología Especial",
       "Microbiología"
-    ]
-  },
-  {
-    "codigo": "2017994",
-    "nombre": "Patología Especial",
-    "semestre": 6,
-    "prerrequisitos": [
-      "Patología General"
     ]
   },
   {
@@ -200,7 +228,7 @@
   {
     "codigo": "2018016",
     "nombre": "Medicina Interna I",
-    "semestre": 7,
+    "semestre": 6,
     "prerrequisitos": [
       "Patología Especial",
       "Introducción a la Medicina Interna"
@@ -217,11 +245,12 @@
     ]
   },
   {
-    "codigo": "2018009",
-    "nombre": "Habilitación Pediátrica",
+    "codigo": "2018011",
+    "nombre": "Rehabilitación",
     "semestre": 7,
     "prerrequisitos": [
-      "Rehabilitación"
+      "Medicina Interna I",
+      "Farmacología"
     ]
   },
   {
@@ -242,33 +271,24 @@
     ]
   },
   {
-    "codigo": "2018011",
-    "nombre": "Rehabilitación",
-    "semestre": 8,
-    "prerrequisitos": [
-      "Medicina Interna I",
-      "Farmacología"
-    ]
-  },
-  {
-    "codigo": "2017984",
-    "nombre": "Cirugía I",
+    "codigo": "2025444",
+    "nombre": "Pediatría II",
     "semestre": 8,
     "prerrequisitos": [
       "Pediatría"
     ]
   },
   {
-    "codigo": "2018015",
-    "nombre": "Ginecología y Obstetricia",
+    "codigo": "2018009",
+    "nombre": "Habilitación Pediátrica",
     "semestre": 8,
     "prerrequisitos": [
-      "Cirugía I"
+      "Rehabilitación"
     ]
   },
   {
-    "codigo": "2025444",
-    "nombre": "Pediatría II",
+    "codigo": "2017984",
+    "nombre": "Cirugía I",
     "semestre": 9,
     "prerrequisitos": [
       "Pediatría"
@@ -283,9 +303,17 @@
     ]
   },
   {
+    "codigo": "2018015",
+    "nombre": "Ginecología y Obstetricia",
+    "semestre": 10,
+    "prerrequisitos": [
+      "Cirugía I"
+    ]
+  },
+  {
     "codigo": "2025524",
     "nombre": "Medicina Legal I",
-    "semestre": 9,
+    "semestre": 10,
     "prerrequisitos": [
       "Patología Especial"
     ]
@@ -293,7 +321,7 @@
   {
     "codigo": "2018010",
     "nombre": "Psiquiatría II",
-    "semestre": 9,
+    "semestre": 10,
     "prerrequisitos": [
       "Psiquiatría I",
       "Pediatría"
@@ -310,19 +338,10 @@
   },
   {
     "codigo": "2025526",
-    "nombre": "Optativa – Internados Electivos",
-    "semestre": 10,
-    "prerrequisitos": [
-      "Haber aprobado 100% de los créditos de los componentes previos"
-    ]
-  },
-  {
-    "codigo": "nan",
-    "nombre": "Optativa – Internados Electivos",
+    "nombre": "Optativa – Internados",
     "semestre": 11,
     "prerrequisitos": [
-      "Aprobación del 100% de los créditos de los componentes de Formación Disciplinar y Clínicas (I y II)",
-      "así como de Profundización y Diversificación del Perfil Profesional"
+      "Haber aprobado 100% de los créditos de los componentes previos"
     ]
   },
   {
@@ -335,7 +354,7 @@
     ]
   },
   {
-    "codigo": "nan",
+    "codigo": "2025532",
     "nombre": "Trabajo de Grado de Medicina",
     "semestre": 12,
     "prerrequisitos": [

@@ -35,8 +35,8 @@ h1 {
   background: #fff;
   border: 2px solid #f783ac;
   padding: 12px;
-  width: 220px;
-  margin: 10px;
+  width: 180px;
+  margin: 10px auto;
   box-shadow: 0 0 10px rgba(255, 192, 203, 0.4);
   border-radius: 12px;
   text-align: center;
@@ -79,4 +79,36 @@ h1 {
 .materia.bloqueada {
   opacity: 0.4;
   cursor: not-allowed;
+}
+
+.materia {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.materia:hover {
+  box-shadow: 0 0 12px rgba(255, 105, 180, 0.6);
+}
+
+.materia.completada::after {
+  content: "💗";
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 20px;
+  animation: pop 0.4s ease;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.3);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
 }
