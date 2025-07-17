@@ -1,34 +1,57 @@
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   padding: 20px;
-  background: #f5f5f5;
+  background: #fff0f6;
 }
 
 h1 {
   text-align: center;
-  color: #2c3e50;
+  color: #d63384;
 }
 
 #malla-container {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.semestre-box {
+  padding: 20px;
+  background: #ffe3ec;
+  border: 2px dashed #f783ac;
+  border-radius: 15px;
+  width: 90%;
+}
+
+.semestre-box h2 {
+  text-align: center;
+  color: #e64980;
+  margin-bottom: 20px;
 }
 
 .materia {
-  background: #ffffff;
-  border: 1px solid #ccc;
-  padding: 10px;
+  background: #fff;
+  border: 2px solid #f783ac;
+  padding: 12px;
   width: 220px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(255, 192, 203, 0.4);
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.materia:hover {
+  transform: scale(1.03);
 }
 
 .materia h3 {
-  margin-top: 0;
+  margin: 0;
   font-size: 16px;
-  color: #34495e;
+  color: #c2255c;
 }
 
 .materia .codigo {
@@ -38,7 +61,7 @@ h1 {
 
 .materia .semestre {
   font-weight: bold;
-  color: #2980b9;
+  color: #d63384;
 }
 
 .materia .prerrequisitos {
@@ -46,25 +69,14 @@ h1 {
   margin-top: 5px;
 }
 
-.semestre-box {
-  margin: 30px 0;
-  padding: 10px;
-  background: #e9ecef;
-  border-radius: 10px;
-}
-
-.semestre-box h2 {
-  text-align: center;
-  color: #2c3e50;
-}
-
 .materia.completada {
   text-decoration: line-through;
-  background: #d4edda;
-  color: #155724;
+  background: #ffc9de;
+  color: #6f0427;
+  border-color: #e64980;
 }
 
 .materia.bloqueada {
-  opacity: 0.5;
+  opacity: 0.4;
   cursor: not-allowed;
 }
