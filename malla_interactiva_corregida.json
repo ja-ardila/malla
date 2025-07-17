@@ -24,6 +24,12 @@
     "prerrequisitos": []
   },
   {
+    "codigo": "2021521",
+    "nombre": "Introducción a la Fisiología",
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
     "codigo": "2021519",
     "nombre": "Histología II",
     "semestre": 2,
