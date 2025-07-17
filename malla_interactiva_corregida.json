@@ -1,0 +1,340 @@
+[
+  {
+    "codigo": "2017995",
+    "nombre": "Histología I",
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "2017988",
+    "nombre": "Embriología",
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "2026320",
+    "nombre": "Química Básica para Ciencias de la Salud",
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "2018012",
+    "nombre": "Salud y Sociedad",
+    "semestre": 1,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "2021519",
+    "nombre": "Histología II",
+    "semestre": 2,
+    "prerrequisitos": [
+      "Histología I"
+    ]
+  },
+  {
+    "codigo": "2017979",
+    "nombre": "Anatomía I",
+    "semestre": 2,
+    "prerrequisitos": [
+      "Embriología",
+      "Histología I"
+    ]
+  },
+  {
+    "codigo": "2021522",
+    "nombre": "Medicina y Sociedad",
+    "semestre": 2,
+    "prerrequisitos": [
+      "Salud y Sociedad"
+    ]
+  },
+  {
+    "codigo": "2017983",
+    "nombre": "Bioquímica I",
+    "semestre": 2,
+    "prerrequisitos": [
+      "Química Básica para Ciencias de la Salud"
+    ]
+  },
+  {
+    "codigo": "2023103",
+    "nombre": "Anatomía II",
+    "semestre": 3,
+    "prerrequisitos": [
+      "Embriología",
+      "Histología II",
+      "Anatomía I"
+    ]
+  },
+  {
+    "codigo": "2023104",
+    "nombre": "Fisiología I",
+    "semestre": 3,
+    "prerrequisitos": [
+      "Introducción a la Fisiología"
+    ]
+  },
+  {
+    "codigo": "2017986",
+    "nombre": "Demografía y Bioestadística",
+    "semestre": 3,
+    "prerrequisitos": [
+      "Medicina y Sociedad"
+    ]
+  },
+  {
+    "codigo": "2017981",
+    "nombre": "Biología Molecular",
+    "semestre": 3,
+    "prerrequisitos": [
+      "Bioquímica I"
+    ]
+  },
+  {
+    "codigo": "2017993",
+    "nombre": "Fisiología II",
+    "semestre": 4,
+    "prerrequisitos": [
+      "Fisiología I"
+    ]
+  },
+  {
+    "codigo": "2023105",
+    "nombre": "Inmunología",
+    "semestre": 4,
+    "prerrequisitos": [
+      "Genética",
+      "Bioquímica I",
+      "Fisiología I",
+      "Biología Molecular"
+    ]
+  },
+  {
+    "codigo": "2018005",
+    "nombre": "Metodología de la Investigación",
+    "semestre": 4,
+    "prerrequisitos": [
+      "Salud y Sociedad"
+    ]
+  },
+  {
+    "codigo": "2025539",
+    "nombre": "Comunicación Científica",
+    "semestre": 4,
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "2023108",
+    "nombre": "Patología General",
+    "semestre": 5,
+    "prerrequisitos": [
+      "Histología III",
+      "Anatomía II",
+      "Bioquímica I",
+      "Fisiología I"
+    ]
+  },
+  {
+    "codigo": "2018006",
+    "nombre": "Microbiología",
+    "semestre": 5,
+    "prerrequisitos": [
+      "Fisiología II"
+    ]
+  },
+  {
+    "codigo": "2018007",
+    "nombre": "Parasitología",
+    "semestre": 5,
+    "prerrequisitos": [
+      "Inmunología"
+    ]
+  },
+  {
+    "codigo": "2015584",
+    "nombre": "Introducción a la Medicina Interna",
+    "semestre": 5,
+    "prerrequisitos": [
+      "Patología General"
+    ]
+  },
+  {
+    "codigo": "2017990",
+    "nombre": "Farmacología",
+    "semestre": 6,
+    "prerrequisitos": [
+      "Patología Especial",
+      "Microbiología"
+    ]
+  },
+  {
+    "codigo": "2017994",
+    "nombre": "Patología Especial",
+    "semestre": 6,
+    "prerrequisitos": [
+      "Patología General"
+    ]
+  },
+  {
+    "codigo": "2015680",
+    "nombre": "Introducción a Imágenes Diagnósticas",
+    "semestre": 6,
+    "prerrequisitos": [
+      "Patología Especial"
+    ]
+  },
+  {
+    "codigo": "2018010",
+    "nombre": "Psiquiatría I",
+    "semestre": 6,
+    "prerrequisitos": [
+      "Introducción a la Medicina Interna"
+    ]
+  },
+  {
+    "codigo": "2018016",
+    "nombre": "Medicina Interna I",
+    "semestre": 7,
+    "prerrequisitos": [
+      "Patología Especial",
+      "Introducción a la Medicina Interna"
+    ]
+  },
+  {
+    "codigo": "2018017",
+    "nombre": "Medicina Interna II",
+    "semestre": 7,
+    "prerrequisitos": [
+      "Medicina Interna I",
+      "Farmacología",
+      "Inmunología"
+    ]
+  },
+  {
+    "codigo": "2018009",
+    "nombre": "Habilitación Pediátrica",
+    "semestre": 7,
+    "prerrequisitos": [
+      "Rehabilitación"
+    ]
+  },
+  {
+    "codigo": "2017996",
+    "nombre": "Imágenes Diagnósticas",
+    "semestre": 7,
+    "prerrequisitos": [
+      "Introducción a Imágenes Diagnósticas"
+    ]
+  },
+  {
+    "codigo": "2018018",
+    "nombre": "Pediatría",
+    "semestre": 8,
+    "prerrequisitos": [
+      "Medicina Interna II",
+      "Genética"
+    ]
+  },
+  {
+    "codigo": "2018011",
+    "nombre": "Rehabilitación",
+    "semestre": 8,
+    "prerrequisitos": [
+      "Medicina Interna I",
+      "Farmacología"
+    ]
+  },
+  {
+    "codigo": "2017984",
+    "nombre": "Cirugía I",
+    "semestre": 8,
+    "prerrequisitos": [
+      "Pediatría"
+    ]
+  },
+  {
+    "codigo": "2018015",
+    "nombre": "Ginecología y Obstetricia",
+    "semestre": 8,
+    "prerrequisitos": [
+      "Cirugía I"
+    ]
+  },
+  {
+    "codigo": "2025444",
+    "nombre": "Pediatría II",
+    "semestre": 9,
+    "prerrequisitos": [
+      "Pediatría"
+    ]
+  },
+  {
+    "codigo": "2024993",
+    "nombre": "Cirugía II",
+    "semestre": 9,
+    "prerrequisitos": [
+      "Cirugía I"
+    ]
+  },
+  {
+    "codigo": "2025524",
+    "nombre": "Medicina Legal I",
+    "semestre": 9,
+    "prerrequisitos": [
+      "Patología Especial"
+    ]
+  },
+  {
+    "codigo": "2018010",
+    "nombre": "Psiquiatría II",
+    "semestre": 9,
+    "prerrequisitos": [
+      "Psiquiatría I",
+      "Pediatría"
+    ]
+  },
+  {
+    "codigo": "2025508",
+    "nombre": "Administración en Salud I",
+    "semestre": 10,
+    "prerrequisitos": [
+      "Epidemiología",
+      "Medicina Interna II"
+    ]
+  },
+  {
+    "codigo": "2025526",
+    "nombre": "Optativa – Internados Electivos",
+    "semestre": 10,
+    "prerrequisitos": [
+      "Haber aprobado 100% de los créditos de los componentes previos"
+    ]
+  },
+  {
+    "codigo": "nan",
+    "nombre": "Optativa – Internados Electivos",
+    "semestre": 11,
+    "prerrequisitos": [
+      "Aprobación del 100% de los créditos de los componentes de Formación Disciplinar y Clínicas (I y II)",
+      "así como de Profundización y Diversificación del Perfil Profesional"
+    ]
+  },
+  {
+    "codigo": "nan",
+    "nombre": "Optativa – Internados Electivos",
+    "semestre": 12,
+    "prerrequisitos": [
+      "Aprobación del 100% de los créditos de los componentes de Formación Disciplinar y Clínicas (I y II)",
+      "así como de Profundización y Diversificación del Perfil Profesional"
+    ]
+  },
+  {
+    "codigo": "nan",
+    "nombre": "Trabajo de Grado de Medicina",
+    "semestre": 12,
+    "prerrequisitos": [
+      "Aprobación del 100% de los créditos de los componentes de Formación Disciplinar y Clínicas (I y II)",
+      "así como de Profundización y Diversificación del Perfil Profesional"
+    ]
+  }
+]
