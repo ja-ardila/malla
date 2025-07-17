@@ -1,10 +1,5 @@
 
 let materiasCompletadas = new Set(JSON.parse(localStorage.getItem("materiasCompletadas") || "[]"));
-let nombreMateriasEspeciales = [
-  "Optativa – Internados",
-  "Optativa – Internados Electivos",
-  "Trabajo de Grado de Medicina"
-];
 
 function guardarEstado() {
   localStorage.setItem("materiasCompletadas", JSON.stringify([...materiasCompletadas]));
@@ -15,16 +10,8 @@ function crearMateriaCard(materia, todasMaterias) {
   card.className = "materia";
   card.id = materia.codigo;
 
-  const esFinal = nombreMateriasEspeciales.includes(materia.nombre);
-  const todasOtrasCompletadas = todasMaterias
-    .filter(m => !nombreMateriasEspeciales.includes(m.nombre))
-    .every(m => materiasCompletadas.has(m.nombre));
-
   const prerrequisitosCumplidos = materia.prerrequisitos.every(pr => materiasCompletadas.has(pr));
-  const bloqueada = (
-    (!esFinal && materia.prerrequisitos.length > 0 && !prerrequisitosCumplidos) ||
-    (esFinal && !todasOtrasCompletadas)
-  );
+  const bloqueada = materia.prerrequisitos.length > 0 && !prerrequisitosCumplidos;
 
   if (materiasCompletadas.has(materia.nombre)) {
     card.classList.add("completada");
